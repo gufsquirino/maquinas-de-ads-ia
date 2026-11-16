@@ -1,0 +1,8 @@
+TEXTO:
+Escreva aqui o texto principal do anúncio.
+Pode ter várias linhas e emojis.
+
+TITULO: Título que aparece abaixo do vídeo
+DESCRICAO: Descrição curta (opcional)
+LINK: https://seusite.com/pagina
+CTA: LEARN_MORE

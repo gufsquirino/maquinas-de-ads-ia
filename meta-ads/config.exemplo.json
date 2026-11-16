@@ -1,0 +1,39 @@
+{
+  "api_version": "v26.0",
+  "bms": {
+    "bm1": {
+      "nome": "Minha BM principal",
+      "token": "COLE_AQUI_O_TOKEN_DO_USUARIO_DO_SISTEMA"
+    }
+  },
+  "contas": {
+    "ca01": {
+      "bm": "bm1",
+      "sigla": "CA01",
+      "produto": "PRODUTO",
+      "ad_account_id": "act_000000000000000",
+      "page_id": "000000000000000",
+      "pixel_id": "000000000000000",
+      "instagram_user_id": "00000000000000000",
+      "evento": "PURCHASE",
+      "orcamento_por_conjunto_usd": 50
+    }
+  },
+  "padroes": {
+    "nome_campanha": "[{sigla}] [{produto}] [CBO] Teste ADs - {data}",
+    "objetivo": "OUTCOME_SALES",
+    "minimo_conjunto_usd": 10,
+    "orcamento_1_1_1_usd": 50,
+    "usd_brl_aprox": 5.3,
+    "paises": ["BR"],
+    "idade_min": 18,
+    "idade_max": 50,
+    "advantage_audience": 0,
+    "cta": "LEARN_MORE",
+    "url_tags": "utm_source=facebook&utm_medium={{adset.name}}&utm_campaign={{campaign.name}}&utm_content={{ad.name}}",
+    "status": {"campanha": "ACTIVE", "conjunto": "ACTIVE", "anuncio": "PAUSED"},
+    "checar_rejeicoes_min": 20,
+    "ativar_aprovados": true,
+    "contas_ativas": ["ca01"]
+  }
+}

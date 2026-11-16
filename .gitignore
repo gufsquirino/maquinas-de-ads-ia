@@ -1,0 +1,33 @@
+# Segredos e dados de cada pessoa: nunca vão para o GitHub
+meta-ads/config.json
+meta-ads/historico/
+meta-ads/*.csv
+meta-ads/*.jsonl
+meta-ads/*.xlsx
+meta-ads/sistema/cache_videos.json
+meta-ads/sistema/staging*/
+meta-ads/sistema/credenciais/
+.env
+
+# Vídeos, áudios e banco de mídia (pesados e pessoais)
+edicao/brutos/*
+edicao/banco/*
+edicao/banco_sdr/
+edicao/musicas/*
+edicao/saida/
+edicao/.trabalho/
+!edicao/brutos/LEIA-ME.md
+!edicao/banco/LEIA-ME.md
+!edicao/banco/provas/
+edicao/banco/provas/*
+!edicao/banco/provas/LEIA-ME.md
+!edicao/musicas/LEIA-ME.md
+*.mp4
+*.mov
+*.MOV
+*.wav
+*.mp3
+
+__pycache__/
+*.pyc
+.DS_Store
